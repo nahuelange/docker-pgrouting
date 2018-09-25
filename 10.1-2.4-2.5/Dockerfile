@@ -2,7 +2,7 @@ FROM mdillon/postgis:10
 MAINTAINER Hans Kristian Flaatten <hans@starefossen.com>
 
 ENV PGROUTING_MAJOR 2.5
-ENV PGROUTING_VERSION 2.5.2
+ENV PGROUTING_VERSION 2.5.4
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
